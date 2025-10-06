@@ -98,6 +98,17 @@ hr {
     background-color: transparent;
 }
 
+.cursor {
+    display: inline-block;
+    background-color: transparent;
+}
+
+.typed-text {
+    padding: 4px;
+    border-radius: 10px;
+    color: var(--acc-clr-light);
+}
+
 @keyframes blink {
   0%  { background-color: #ccc; }
   49% { background-color: #ccc; }
