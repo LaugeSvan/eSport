@@ -36,3 +36,19 @@ header h1, header p {
 main {
     padding: 1rem;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid var(--acc-clr);
+    background-color: var(--sec-bg);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer p {
+    background-color: transparent;
+}
