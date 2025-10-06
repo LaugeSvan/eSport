@@ -63,38 +63,38 @@ hr {
 }
 
 .typewriter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
 }
 
 .typewriter p {
-  font-size: 3rem;
-  padding: 0.5rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  overflow: hidden;
-  background-color: transparent;
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    background-color: transparent;
 }
 
 .typewriter p span.typed-text {
-  font-weight: normal;
-  background-color: transparent;
+    font-weight: normal;
+    background-color: transparent;
 }
 
 .typewriter p span.cursor {
-  display: inline-block;
-  background-color: transparent;
-  margin-left: 0.1rem;
-  width: 3px;
-  animation: blink 1s infinite;
+    display: inline-block;
+    background-color: transparent;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
 }
 
 .typewriter p span.cursor.typing {
-  animation: none;
-  background-color: transparent;
+    animation: none;
+    background-color: transparent;
 }
 
 @keyframes blink {
