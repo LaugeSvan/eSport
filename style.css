@@ -5,3 +5,9 @@
     --txt-clr: #efefef;
     --f-inter: 'Inter', sans-serif;
 }
+
+* {
+    background-color: var(--bg-clr);
+    color: var(--txt-clr);
+    font-family: var(--f-inter);
+}
