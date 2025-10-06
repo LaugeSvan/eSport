@@ -20,11 +20,17 @@
 
 header {
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center; 
     padding: 1rem;
     border-bottom: 1px solid var(--acc-clr);
+    background-color: var(--sec-bg);
+}
+
+header h1, header p {
+    background-color: transparent;
 }
 
 main {
