@@ -34,7 +34,12 @@ header h1, header p {
 }
 
 main {
-    padding: 1rem;
+    padding: 4rem;
+    padding-top: 1rem;
+}
+
+main iframe {
+    margin: 20px;
 }
 
 footer {
@@ -51,4 +56,8 @@ footer {
 
 footer p {
     background-color: transparent;
+}
+
+hr {
+    margin: 10px;
 }
