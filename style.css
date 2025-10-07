@@ -97,6 +97,9 @@ footer p {
 .cursor {
     display: inline-block;
     background-color: transparent;
+    margin-left: 0.3rem;
+    width: 3px;
+    animation: blink 1s infinite;
 }
 
 .typed-text {
